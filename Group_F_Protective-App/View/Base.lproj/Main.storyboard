@@ -50,6 +50,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="DJM-ic-1nX"/>
+                    <connections>
+                        <outlet property="login" destination="Kwg-bl-ix9" id="WiU-Gn-Co1"/>
+                        <outlet property="signup" destination="fre-la-dRs" id="Eta-yn-oRd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,10 +152,10 @@
             </objects>
             <point key="canvasLocation" x="2042.0289855072465" y="-271.20535714285711"/>
         </scene>
-        <!--Log In View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="lpj-fu-AIT">
             <objects>
-                <viewController id="AqD-zF-Zva" customClass="LogInViewController" customModule="Group_F_Protective_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AqD-zF-Zva" customClass="loginViewController" customModule="Group_F_Protective_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="23R-10-ZgZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,7 +186,7 @@
                                         </constraints>
                                         <state key="normal" title="LogIn"/>
                                         <connections>
-                                            <action selector="Loginbutton:" destination="AqD-zF-Zva" eventType="touchUpInside" id="mtc-0x-2Iu"/>
+                                            <action selector="loginaction:" destination="AqD-zF-Zva" eventType="touchUpInside" id="gI9-1l-Rh8"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pd5-fd-orP">
@@ -207,10 +211,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="CPk-6e-nRb"/>
                     <connections>
-                        <outlet property="error" destination="Pd5-fd-orP" id="YIi-F7-61e"/>
-                        <outlet property="firstnameText" destination="SPn-8W-01K" id="Ee3-Xc-uhD"/>
-                        <outlet property="login" destination="LQU-c5-uq6" id="luB-Gl-wRu"/>
-                        <outlet property="passwordtext" destination="VBl-UO-3NU" id="Rie-1O-HYm"/>
+                        <outlet property="errorlabel" destination="Pd5-fd-orP" id="F0S-IM-eej"/>
+                        <outlet property="firstname" destination="SPn-8W-01K" id="ICm-Wl-lSN"/>
+                        <outlet property="loginbutton" destination="LQU-c5-uq6" id="ZlC-LL-KBE"/>
+                        <outlet property="password" destination="VBl-UO-3NU" id="aKV-17-zN8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mfz-L0-ZWj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

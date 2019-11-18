@@ -25,8 +25,20 @@ class SignupViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+         setUpElements()
     }
+    func setUpElements() {
     
+        // Hide the error label
+        error.alpha = 0
+    
+        // Style the elements
+        Utilities.styleTextField(firstName)
+        Utilities.styleTextField(lastName)
+        Utilities.styleTextField(Email)
+        Utilities.styleTextField(Password)
+        Utilities.styleFilledButton(signup)
+    }
 
     /*
     // MARK: - Navigation
