@@ -1,0 +1,6 @@
+framework module Pods_Group_F_Protective_App_Group_F_Protective_AppUITests {
+  umbrella header "Pods-Group_F_Protective-App-Group_F_Protective-AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
