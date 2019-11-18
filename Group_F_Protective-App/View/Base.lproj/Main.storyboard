@@ -62,7 +62,7 @@
         <!--Home View Controller-->
         <scene sceneID="q8i-0p-3zI">
             <objects>
-                <viewController id="T9V-QA-vUy" customClass="HomeViewController" customModule="Group_F_Protective_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="T9V-QA-vUy" customClass="HomeViewController" customModule="Group_F_Protective_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0sB-65-EiY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

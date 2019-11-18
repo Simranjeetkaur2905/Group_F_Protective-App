@@ -50,6 +50,8 @@ class loginViewController: UIViewController {
 
     
     @IBAction func loginaction(_ sender: Any) {
+        //validate text fields
+        //signing in the user
     }
     
     
