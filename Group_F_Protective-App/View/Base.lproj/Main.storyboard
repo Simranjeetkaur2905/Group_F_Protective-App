@@ -163,7 +163,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bnz-KE-rDz">
                                 <rect key="frame" x="40" y="128" width="334" height="220"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPn-8W-01K">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPn-8W-01K">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="fzr-QS-cBn"/>
@@ -189,7 +189,7 @@
                                             <action selector="loginaction:" destination="AqD-zF-Zva" eventType="touchUpInside" id="gI9-1l-Rh8"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pd5-fd-orP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pd5-fd-orP">
                                         <rect key="frame" x="0.0" y="180" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="gcf-4J-CoA"/>
