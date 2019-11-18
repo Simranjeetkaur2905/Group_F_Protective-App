@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import  Firebase
+import FirebaseAuth
+import  FirebaseFirestore
 
 class loginViewController: UIViewController {
     
@@ -38,20 +41,31 @@ class loginViewController: UIViewController {
          
      }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
     
     @IBAction func loginaction(_ sender: Any) {
-        //validate text fields
-        //signing in the user
+        
+        // Create cleaned versions of the text field
+        let email = firstname.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let Password = password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        // Signing in the user
+        Auth.auth().signIn(withEmail: email, password: Password) { (result, error) in
+            
+            if error != nil {
+                // Couldn't sign in
+                self.errorlabel.text = error!.localizedDescription
+                self.errorlabel.alpha = 1
+            }
+            else {
+                
+                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.HomeViewController) as? HomeViewController
+                
+                self.view.window?.rootViewController = homeViewController
+                self.view.window?.makeKeyAndVisible()
+            }
+        }
+        
     }
     
     
