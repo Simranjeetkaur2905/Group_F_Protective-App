@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		D0023E4223830180003A6887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0023E4123830180003A6887 /* ViewController.swift */; };
 		D0023E4423830476003A6887 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0023E4323830476003A6887 /* loginViewController.swift */; };
 		D0023E4623830832003A6887 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0023E4523830832003A6887 /* GoogleService-Info.plist */; };
+		D0023E4823832A5D003A6887 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0023E4723832A5D003A6887 /* Constants.swift */; };
 		D676A9727ADA861EA2C9FB80 /* Pods_Group_F_Protective_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EE97BBF78F03EB499DB92A /* Pods_Group_F_Protective_App.framework */; };
 		DAAAF715A32B566747106729 /* Pods_Group_F_Protective_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906095158DF55A7FCB52D6AE /* Pods_Group_F_Protective_AppTests.framework */; };
 		E0673ACB7AE938976FFD9AAB /* Pods_Group_F_Protective_App_Group_F_Protective_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E23D0F70F4C2FB0D4DA075 /* Pods_Group_F_Protective_App_Group_F_Protective_AppUITests.framework */; };
@@ -70,6 +71,7 @@
 		D0023E4123830180003A6887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0023E4323830476003A6887 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		D0023E4523830832003A6887 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0023E4723832A5D003A6887 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EADE1CE019E2EDA5148A743E /* Pods-Group_F_Protective-App-Group_F_Protective-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group_F_Protective-App-Group_F_Protective-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Group_F_Protective-App-Group_F_Protective-AppUITests/Pods-Group_F_Protective-App-Group_F_Protective-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +123,6 @@
 				4E58051317DFCD0A4BC69486 /* Pods-Group_F_Protective-AppTests.debug.xcconfig */,
 				1BE02A212CA89A47A6365EC1 /* Pods-Group_F_Protective-AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				D0023E3F2382FAFB003A6887 /* Utilities.swift */,
+				D0023E4723832A5D003A6887 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -455,6 +457,7 @@
 				D0023E4223830180003A6887 /* ViewController.swift in Sources */,
 				D0023E0723824672003A6887 /* SceneDelegate.swift in Sources */,
 				D0023E39238248D3003A6887 /* HomeViewController.swift in Sources */,
+				D0023E4823832A5D003A6887 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

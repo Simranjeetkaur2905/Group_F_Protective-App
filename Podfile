@@ -17,5 +17,7 @@ target 'Group_F_Protective-App' do
   end
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
 end
